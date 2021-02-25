@@ -14,3 +14,7 @@
 | ---------------------------- | ------------------------- | ------------------------------------------------ |
 | postgres13-postgis           | Postgres + PostGIS        | [link](./postgres13-postgis/README.md)           |
 | tomcat9.0.43-geoserver2.18.2 | Geoserver2.18 on Tomcat 9 | [link](./tomcat9.0.43-geoserver2.18.2/README.md) |
+
+
+## Docker 사용 정리 예시
+- [war로 build한 application을 tomcat과 postgres 컨테이너를 활용해 실행하기](./example/tomcat-war-postgres/README.md)
