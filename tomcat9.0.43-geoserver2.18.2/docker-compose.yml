@@ -1,0 +1,8 @@
+version: '3'
+services:
+  geoserver:
+    container_name: geoserver
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    image: todaksun/tomcat9.0.43-geoserver2.18.2
