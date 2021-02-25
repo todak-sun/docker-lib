@@ -1,0 +1,25 @@
+version: '3'
+
+services:
+  postgres:
+    container_name: postgres
+    image: todaksun/postgres13-postgis
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    ports:
+      - '5432:5432'
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+  tomcat:
+    container_name: tomcat
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    ports:
+      - '8080:8080'
+    depends_on:
+      - postgres
+
+volumes:
+  pgdata:
