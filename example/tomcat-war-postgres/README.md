@@ -8,11 +8,9 @@
 - 윈도우에서의 도커 설치방법은 검색을 통해 찾아주세요.
 
 ---
-## 준비된 Web Application 설명
-
-
----
 ## 컨테이너 구성해보기
+
+![container](images/container.png)
 
 도커를 설치 한 다음에는 본격적으로 Docker container 환경을 구성해보겠습니다.
 아래의 내용을 따라 진행해주세요.

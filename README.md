@@ -17,4 +17,7 @@
 
 
 ## Docker 사용 정리 예시
-- [war로 build한 application을 tomcat과 postgres 컨테이너를 활용해 실행하기](./example/tomcat-war-postgres/README.md)
+| 제목                                                                     | 링크                                            |
+| ------------------------------------------------------------------------ | ----------------------------------------------- |
+| jar로 build한 application을 openjdk 컨테이너를 활용해 실행하기           | [link](./example/openjdk-8-jar/README.md)       |
+| war로 build한 application을 tomcat과 postgres 컨테이너를 활용해 실행하기 | [link](./example/tomcat-war-postgres/README.md) |
